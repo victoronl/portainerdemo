@@ -10,5 +10,5 @@ spec:
       paths:
         - path: /
           backend:
-            serviceName: portainer-demo
+            serviceName: nginx-demo-service
             servicePort: 80
