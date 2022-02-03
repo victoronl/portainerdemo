@@ -10,4 +10,4 @@ spec:
       - path: /
         backend:
           serviceName: portainer-demo-service
-          servicePort: 30080
+          servicePort: 30980
