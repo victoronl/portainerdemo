@@ -11,4 +11,4 @@ spec:
         - path: /
           backend:
             serviceName: nginx-demo-service
-            servicePort: 80
+            servicePort: 30080
