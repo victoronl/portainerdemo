@@ -1,0 +1,6 @@
+version: '3.2'
+services:
+  droppy:
+    image: silverwind/droppy:${version}
+    ports:
+      - ${port}:8989
