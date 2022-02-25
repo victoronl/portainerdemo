@@ -3,4 +3,4 @@ services:
   droppy:
     image: silverwind/droppy:${version}
     ports:
-      - ${port}:8989
+      - ${port}:8990
