@@ -15,7 +15,7 @@ spec:
         app: portainer-demo
     spec:
       containers:
-        - name: nginx
+        - name: nginx-new
           image: nginx:latest
           ports:
           - containerPort: 80
