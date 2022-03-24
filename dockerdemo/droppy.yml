@@ -4,5 +4,3 @@ services:
     image: silverwind/droppy:${version}
     ports:
       - ${port}:8990
-    env_file:
-      - ./stack.env
