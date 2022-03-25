@@ -15,8 +15,8 @@ spec:
         app: portainer-demo
     spec:
       containers:
-        - name: nginx-new
-          image: nginx:1.21
+        - name: nginx
+          image: nginx:latest
           ports:
           - containerPort: 80
           imagePullPolicy: Always
