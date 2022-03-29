@@ -5,7 +5,7 @@ metadata:
   labels:
     app: portainer-demo
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: portainer-demo
