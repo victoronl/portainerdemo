@@ -6,4 +6,4 @@ services:
       - 80:80
     deploy:
       mode: replicated
-      replicas: 1
+      replicas: 2
